@@ -16,17 +16,17 @@ def greet_with_default(name = 'programmer')
 end
 
 
-def add_and_return(num1, num2)
+def add(num1, num2)
     return num1 + num2
-    sum = add_and_return(2, 5)
 end
 
-def halve(number)
-    if number.class != "number" 
-      return number/2
+add(4,4)
+
+def halve(num)
+      return nil unless num.class == Integer
+      num/2
     end
   
-    halve
-end
+    
 
 
